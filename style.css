@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.index {
+  background-image: url(pexels-kammeran-gonzalez-keola-3137381-19497058.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #003333;
+  line-height: 1.6;
+}
+
+.about {
+    background-image: url(pexels-oktay-koseoglu-42034955-34487106.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #003333;
+  line-height: 1.6;
+}
+
+.contact {
+  background-image: url(pexels-scottwebb-1029604.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #003333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #0096c7;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #0077b6;
+}
+
+.hero {
+  background-image: url('pexels-francesco-ungaro-3410956.jpg');
+  background-color: rgba(0, 0, 0, 0.0);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 80px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 40px auto;
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05), 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #0077b6;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00b4d8;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+section p {
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #003459;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00b4d8;
+}
